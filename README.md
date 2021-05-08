@@ -90,4 +90,4 @@ Currently, you have no message in your queue and 1 consumer which process nothin
 k apply -f kubernetes/scaler.yaml
 ```
 
-Wait few seconds, you will see that your deployment will auto scale to 0 because no message are found. Congratulation, it works :tada:. Feel free to play with **ScaledObject** specifications to see what happen.
+Wait few seconds, you will see that your deployment will auto scale to 0 because no message are found. Congratulation, it works :tada:. Now you can send message and see how your application scales. Feel free to play with **ScaledObject** specifications to see what happen.
